@@ -1,0 +1,613 @@
+body{        
+    padding-top: 60px;
+    padding-bottom: 40px;
+    color: white !important;
+}
+
+@font-face {
+     font-family: hindvadodara;
+     src: url('../webfonts/HindVadodara-SemiBold.ttf');
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto; /* Center the DIV horizontally */
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;
+    background: #773e90; /*#333;*/
+    padding: 10px 0;
+    /*color: #fff;*/
+}
+.fixed-header{
+    top: 0;
+    z-index: 2;
+}
+.fixed-footer{
+    bottom: 0;
+}    
+/* Some more styles to beutify this example */
+nav {
+  padding-right: 0px !important;
+}
+nav a{
+    color: #773e90;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #fbb900;
+}
+
+/*.divlogo {
+    width: 100%;
+    text-align: center;
+}*/
+
+.logo {
+    /*width: 100%;*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logoH {
+  padding-top: 5px;
+  width: 50%;
+}
+
+.container p{
+    line-height: 200px; /* Create scrollbar to test positioning */
+}
+
+.social-icons {
+  /*position: absolute;*/
+  /*margin-bottom: 2rem;*/
+  margin-top: 1rem !important;
+  width: 100%;
+  float: right;
+}
+
+.social-icons ul {
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.social-icons ul > li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.social-icons ul > li > a {
+  display: block;
+  color: #773e90;
+  background-color: rgba(251, 185, 0, 0.8);
+  border-radius: 100%;
+  font-size: 1rem;
+  line-height: 2rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.social-icons-foot {
+  /*position: absolute;*/
+  /*margin-bottom: 2rem;*/
+  margin-top: 1rem !important;
+  width: 100%;
+}
+
+.social-icons-foot ul {
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.social-icons-foot ul > li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.social-icons-foot ul > li > a {
+  display: block;
+  color: #000000;
+  background-color: rgba(251, 185, 0, 0.8);
+  border-radius: 100%;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  height: 4rem;
+  width: 4rem;
+  padding-top: 0.7rem;
+}
+
+@media (min-width: 768px) {
+  .social-icons {
+    margin: 0;
+    /*position: absolute;*/
+    right: 2.5rem;
+    bottom: 2rem;
+    width: auto;
+  }
+  .social-icons ul {
+    margin-top: 0;
+    width: auto;
+  }
+  .social-icons ul > li {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    float: left;
+  }
+  .social-icons ul > li:last-child {
+    margin-bottom: 0;
+  }
+  .social-icons ul > li > a {
+    transition: all 0.2s ease-in-out;
+    font-size: 1rem;
+    line-height: 2rem;
+    height: 2rem;
+    width: 2rem;
+  }
+  .social-icons ul > li > a:hover {
+    background-color: #fbb900;
+    color: white;
+  }
+}
+
+.section3 {
+    height: 720px;
+    width: 100%;
+    background: url("../img/BannerSinTexto_01.jpg");
+    background-size: cover;
+}
+
+.section4 {
+    height: 760px;
+    width: 100%;
+    background-color: #773e90;
+    padding-top: 50px !important;
+}
+
+.section5 {
+    height: 350px;
+    width: 100%;
+    background-image: url("../img/Background.jpg");
+    background-size: cover;
+    padding-top: 20px !important;
+
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section6 {
+    height: 820px;
+    background-color: #fbb900;   
+}
+
+.section6>.titulo {
+    text-align: center;
+    color: #773e90;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.section7 {
+    height: 90px;
+    background-color: #773e90;
+}
+
+.section8 {
+    height: 300px;
+    background-color: white;
+    background-image: url("../img/BannerInferior_01.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section9 {
+  height: 450px;
+  background-color: #bfbfbe;
+}
+
+.section10 {
+  height: 1000px;
+  background-color: #773e90; 
+}
+
+.section11 {
+  height: 400px;
+  background-color: #000000; 
+  padding-top: 5rem;
+}
+
+.section11 h2 {
+  color: #fbb900;
+}
+
+.section11 ul {
+  list-style-type: none !important;
+  padding-left: 0px;
+}
+
+.section11 a {
+  color: white;
+}
+
+.mvertical {
+  border-left-style: solid;
+  border-left-color: #fbb900;
+  border-left-width: 0.5px;
+}
+
+
+.section12 {
+  height: 170px;
+  background-color: #000000; 
+  border-top-style: solid;
+  border-top-width: 0.5px;
+  border-top-color: white;
+}
+
+.section13 {
+  background-color: #000000; 
+}
+
+
+
+/*.row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}*/
+
+.curso {
+    background-color: rgb(255,255,255,0.4) !important;
+    border-radius: 18px !important;
+    height: 552px;
+}
+
+.redondo {
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.universidad {
+    background-color: #35a1d9 !important;
+    border-radius: 18px !important;
+}
+
+.colegio {
+    background-color: #8cb91f !important;
+    border-radius: 18px !important;
+}
+
+.empresa {
+    background-color: #f1aa33 !important;
+    border-radius: 18px !important;
+}
+
+.gobierno {
+    background-color: #bfbfbe !important;
+    border-radius: 18px !important;
+}
+
+.colorearUni { 
+    background-image: linear-gradient(
+          rgba(53, 161, 217, 0.7), 
+          rgba(53, 161, 217, 0.7)
+        ),
+    url("../img/servicio_universidad.jpg"); 
+    width: 100% !important;
+    background-size: cover;
+    height: 311px; 
+    width: 208px; 
+    border-top-right-radius: 18px !important;
+    border-top-left-radius: 18px !important;
+}
+
+.colorearCole { 
+    background-image: linear-gradient(
+          rgba(140, 185, 31, 0.7), 
+          rgba(140, 185, 31, 0.7)
+        ),
+    url("../img/servicio_colegio.jpg"); 
+    width: 100% !important;
+    background-size: cover;
+    height: 311px; 
+    width: 208px; 
+    border-top-right-radius: 18px !important;
+    border-top-left-radius: 18px !important;
+}
+
+.colorearEmpre { 
+    background-image: linear-gradient(
+          rgba(241, 170, 51, 0.7), 
+          rgba(241, 170, 51, 0.7)
+        ),
+    url("../img/servicio_empresa.jpg"); 
+    width: 100% !important;
+    background-size: cover;
+    height: 311px; 
+    width: 208px; 
+    border-top-right-radius: 18px !important;
+    border-top-left-radius: 18px !important;
+}
+
+.colorearGobi { 
+    background-image: linear-gradient(
+          rgba(191, 191, 190, 0.7), 
+          rgba(191, 191, 190, 0.7)
+        ),
+    url("../img/servicio_gobierno.jpg"); 
+    width: 100% !important;
+    background-size: cover;
+    height: 311px; 
+    width: 208px; 
+    border-top-right-radius: 18px !important;
+    border-top-left-radius: 18px !important;
+}
+
+.vertical {
+    transform: rotate(270deg);
+    position: relative;    
+    top: 38%;
+    left: 37%;
+    text-align: right;
+}
+
+.eBanner {
+  position: relative;    
+  top: 20em;
+  left: 45em;
+  padding-right: 3em;
+  text-align: right; 
+  width: 45%;
+}
+
+.eBannerInf {
+  position: relative;    
+  top: 3.5rem;
+  left: 9.5rem;
+  padding-right: 3rem;
+  text-align: center; 
+  width: 75%;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  line-height: 2.8rem !important;
+}
+
+.moodle {
+  position: relative;    
+  top: 5.5rem;
+  left: 4.5rem;
+}
+
+h1.banner {
+  /*position: relative;    
+  padding-right: 3em;*/
+  text-align: right; 
+  font-weight: bolder;
+  padding-bottom: 0.1em;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  /*top: 6em;*/
+}
+
+p.banner {
+  /*position: relative;    */
+  /*padding-right: 7.5em;*/
+  text-align: right; 
+  /*top: 15em;*/
+}
+
+hr.banner {
+  position: relative;    
+  padding-right: 7.5em;
+  top: 14em;
+}
+
+.cuerpo {
+    /*background-color: #35a1d9 !important;*/
+    text-align: center;
+}
+.cuerpo>img {
+    width: 60%;
+}
+
+.legenda2 {
+    text-align: center;
+    color: #773e90;
+    padding-top: .5em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.legenda2>p {
+    text-align: center;
+    line-height: 1.5em !important;
+}
+
+.legenda>h2 {
+    text-align: center;
+    color: #fbb900;
+}
+
+.legenda>p {
+    text-align: center;
+    line-height: 20px !important;
+}
+
+.mensaje {
+    width: 100%;
+    text-align: center;
+    padding-top: 1.2em;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.mensaje>h1 {
+    text-align: center;
+}
+
+.mensaje>input {
+    background-color: #8cb91f !important;
+    border-radius: 35px !important;
+    border: none !important;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.v-divider{
+ /*margin-left:5px;
+ margin-right:5px;*/
+ width:1px;
+ /*height:100%;*/
+ border-left:1px solid gray;
+}
+
+.MultiCarousel { 
+  float: left; 
+  overflow: hidden; 
+  padding: 15px; 
+  width: 100%; 
+  position:relative; 
+}
+
+.MultiCarousel .MultiCarousel-inner { 
+  transition: 1s ease all; 
+  float: left; 
+}
+
+.MultiCarousel .MultiCarousel-inner .item { 
+  float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item > div { 
+  text-align: center; 
+  padding:10px; 
+  margin:10px; 
+  background:#f1f1f1; 
+  color:#666;
+}
+
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { 
+  position:absolute; 
+  top:calc(50% - 20px); 
+  border-radius:50%;
+}
+
+.MultiCarousel .leftLst { 
+  left:0; 
+}
+
+.MultiCarousel .rightLst { 
+  right:0; 
+}
+    
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
+  pointer-events: none; 
+  background:#ccc; 
+}
+
+.pad15 {
+  padding: 0px !important;
+  width: 12rem !important;
+  height: 12rem !important;
+  border-radius: 15px;
+  border-style: dotted !important;
+  border: 0.1rem;
+  margin-bottom: 0px !important;
+}
+
+.escuela {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.titulo {
+  text-align: center;
+  padding-top: 20px;
+}
+.titulo>h1 {
+  font-weight: bolder;
+  color: #773e90;
+}
+
+.descripcion {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  background-color: transparent !important;
+}
+.descripcion>h5 {
+  font-weight: bolder;
+  margin-bottom: 0.01rem !important;
+}
+
+.descripcion>p {
+  margin-bottom: 0.3rem !important;
+}
+
+.peque {
+  font-size: 0.7rem;
+}
+
+.logoContacto {
+  text-align: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.logoContacto>img {
+  height: 15rem;
+}
+
+.logoContacto>h3 {
+  margin-top: 5rem;
+  font-weight: bolder;
+}
+
+.form-group>input,textarea {
+  background-color: #fbb900 !important;
+  border-color: #fbb900 !important;
+  border-radius: 15px !important;
+}
+
+.form-actions {
+    margin: 3rem;
+    background-color: transparent;
+    text-align: center;
+}
+
+.form-actions>button {
+  text-align: center !important;
+  color: #773e90 !important;
+  background-color: #fbb900 !important;
+  border-radius: 15px !important;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  color: #fbb900;
+}

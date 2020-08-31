@@ -1,36 +1,27 @@
-body{        
-    padding-top: 60px;
-    padding-bottom: 40px;
-    color: white !important;
-}
-
 @font-face {
      font-family: hindvadodara;
      src: url('../webfonts/HindVadodara-SemiBold.ttf');
 }
 
-.container{
-    width: 80%;
-    margin: 0 auto; /* Center the DIV horizontally */
+body{
+  color: white !important;
 }
+
 .fixed-header, .fixed-footer{
     width: 100%;
     position: fixed;
-    background: #773e90; /*#333;*/
-    padding: 10px 0;
-    /*color: #fff;*/
+    background: #773e90; 
+    
 }
 .fixed-header{
     top: 0;
     z-index: 2;
 }
+
 .fixed-footer{
     bottom: 0;
 }    
-/* Some more styles to beutify this example */
-nav {
-  padding-right: 0px !important;
-}
+
 nav a{
     color: #773e90;
     text-decoration: none;
@@ -42,13 +33,8 @@ nav a:hover {
     color: #fbb900;
 }
 
-/*.divlogo {
-    width: 100%;
-    text-align: center;
-}*/
 
 .logo {
-    /*width: 100%;*/
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -58,13 +44,7 @@ nav a:hover {
   width: 50%;
 }
 
-.container p{
-    line-height: 200px; /* Create scrollbar to test positioning */
-}
-
 .social-icons {
-  /*position: absolute;*/
-  /*margin-bottom: 2rem;*/
   margin-top: 1rem !important;
   width: 100%;
   float: right;
@@ -94,8 +74,6 @@ nav a:hover {
 }
 
 .social-icons-foot {
-  /*position: absolute;*/
-  /*margin-bottom: 2rem;*/
   margin-top: 1rem !important;
   width: 100%;
 }
@@ -125,47 +103,27 @@ nav a:hover {
   padding-top: 0.7rem;
 }
 
-@media (min-width: 768px) {
-  .social-icons {
-    margin: 0;
-    /*position: absolute;*/
-    right: 2.5rem;
-    bottom: 2rem;
-    width: auto;
-  }
-  .social-icons ul {
-    margin-top: 0;
-    width: auto;
-  }
-  .social-icons ul > li {
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    float: left;
-  }
-  .social-icons ul > li:last-child {
-    margin-bottom: 0;
-  }
-  .social-icons ul > li > a {
-    transition: all 0.2s ease-in-out;
-    font-size: 1rem;
-    line-height: 2rem;
-    height: 2rem;
-    width: 2rem;
-  }
-  .social-icons ul > li > a:hover {
-    background-color: #fbb900;
-    color: white;
-  }
+.section3 {
+  min-height: 720px;
+  width: 100%;
+  background: url("../img/BannerSinTexto_01.jpg");
+  background-size: cover;
 }
 
-.section3 {
-    height: 720px;
-    width: 100%;
-    background: url("../img/BannerSinTexto_01.jpg");
-    background-size: cover;
+.eBanner {
+  padding-right: 3em;
+  text-align: right; 
+}
+
+#eBanner-title {
+  text-align: right;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+#eBanner-text {
+  text-align: right;
+
 }
 
 .section4 {
@@ -263,13 +221,6 @@ nav a:hover {
   background-color: #000000; 
 }
 
-
-
-/*.row {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}*/
-
 .curso {
     background-color: rgb(255,255,255,0.4) !important;
     border-radius: 18px !important;
@@ -366,26 +317,7 @@ nav a:hover {
     text-align: right;
 }
 
-.eBanner {
-  position: relative;    
-  top: 20em;
-  left: 45em;
-  padding-right: 3em;
-  text-align: right; 
-  width: 45%;
-}
 
-.eBannerInf {
-  position: relative;    
-  top: 3.5rem;
-  left: 9.5rem;
-  padding-right: 3rem;
-  text-align: center; 
-  width: 75%;
-  font-size: 2.5rem;
-  font-weight: bolder;
-  line-height: 2.8rem !important;
-}
 
 .moodle {
   position: relative;    
@@ -394,21 +326,16 @@ nav a:hover {
 }
 
 h1.banner {
-  /*position: relative;    
-  padding-right: 3em;*/
   text-align: right; 
   font-weight: bolder;
   padding-bottom: 0.1em;
   border-bottom-style: solid;
   border-bottom-color: white;
-  /*top: 6em;*/
+  
 }
 
 p.banner {
-  /*position: relative;    */
-  /*padding-right: 7.5em;*/
   text-align: right; 
-  /*top: 15em;*/
 }
 
 hr.banner {
@@ -418,7 +345,7 @@ hr.banner {
 }
 
 .cuerpo {
-    /*background-color: #35a1d9 !important;*/
+    
     text-align: center;
 }
 .cuerpo>img {
@@ -474,10 +401,10 @@ hr.banner {
 }
 
 .v-divider{
- /*margin-left:5px;
+ 
  margin-right:5px;*/
  width:1px;
- /*height:100%;*/
+ 
  border-left:1px solid gray;
 }
 

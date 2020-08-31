@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+    .section3 {
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 200px;
+    }
+
+    .divlogo img {
+        margin-top: 4rem;
+    }
+
+    .logoContacto > img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media print {
+
+}

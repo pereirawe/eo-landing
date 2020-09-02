@@ -14,6 +14,39 @@
         height: auto;
         width: 100%;
     }
+
+    .social-icons {
+        margin: 0;
+        right: 2.5rem;
+        bottom: 2rem;
+        width: auto;
+    }
+    .social-icons ul {
+        margin-top: 0;
+        width: auto;
+    }
+    .social-icons ul > li {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        float: left;
+    }
+    .social-icons ul > li:last-child {
+        margin-bottom: 0;
+    }
+    .social-icons ul > li > a {
+        transition: all 0.2s ease-in-out;
+        font-size: 1rem;
+        line-height: 2rem;
+        height: 2rem;
+        width: 2rem;
+    }
+    .social-icons ul > li > a:hover {
+        background-color: #fbb900;
+        color: white;
+    }
 }
 
 @media screen and (max-width: 1024px) {
